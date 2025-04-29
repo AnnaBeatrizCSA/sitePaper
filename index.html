@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Papel&magia</title>
+    <link href = "css/estilos.css" rel= "stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script> 
+        alert('Bem vindo ao nosso site!');
+         //criar um alerta//
+         dia = new Array ("Domingo", "Segunda-Feira","Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado" );
+         mes = new Array ("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+         data = new Date
+    </script>
+</head>
+<body>
+   <header>
+    <div class=".divHeader">
+        <!--LOGOTIPO-->
+        <img src="img/logo.png" title="Meu site" class="logo"/>
+        <!--MENU-->
+        <nav>
+            <ul>   
+                <!--ITENS DO MENU-->
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="produtos.html"><b>Produtos</b></a></li>
+                <li><b>Contato</b></li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+   <!--Banner-->
+   <img src="img/rosa.png" class="Banner"/>
+
+   <!--conteudo pagina web-->
+   <main> 
+    <!--sessão sobre nos-->
+    <section class="Sobre_nos">
+        <h3 class="titulo_sobrenos">SOBRE NÓS</h3>
+        <img src="img/segundafoto .png" class="segundafoto"/>
+        <p class="datahoradia">
+           <script>
+            document.write(dia[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
+            //document.write(data)// aparece as informações tiradas do computador//
+           </script>
+        </p>
+        <p class ="texto_diferente">Na Papel & Magia, somos apaixonados por papelaria! Atuamos com excelência no fornecimento de materiais escolares, de escritório e itens criativos que inspiram o dia a dia de nossos clientes. Com uma seleção cuidadosa de produtos de qualidade, atendimento acolhedor e compromisso com a satisfação, buscamos tornar cada compra uma experiência prática e prazerosa. Seja para organizar, estudar ou criar, estamos aqui para ajudar você a transformar ideias em realidade.</p>
+        <!--fonte italic tag (I)-->
+         
+        <!--palavra em negrito (B)-->
+    </section>
+    <!--sessão nosso estabelecimento-->
+    <section class ="mapaGeral">
+        <h3 class="titulo_estabelecimento">NOSSO ESTABELECIMENTO</h3> <!--titulo estabelecimento-->
+        <p class ="texto_mapa">
+            Veja no mapa abaixo como nos encontrar
+        </p>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.183668596157!2d-46.87650156364733!3d-23.476838380137025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03aaf6d062af%3A0x2c22de58cd7f17f1!2sAlphaville%2C%20Santana%20de%20Parna%C3%ADba%20-%20SP%2C%2006542-115!5e0!3m2!1spt-BR!2sbr!4v1740608314813!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section class="nossos_produtos">
+        <h3 class ="titulo_produtos">NOSSOS PRODUTOS</h3>
+        <img src="img/maquiagens.png" class="materiais"/>
+         <div class="div_nossosprodutos">
+            <ul class ="lista_produtos">
+                <li>  Caderno</li>
+                <li>  Borracha</li>
+                <li>  Corretivo</li>
+                <li>  Lápis</li>
+                <li>  Caneta</li>
+                <li>  Apontador</li>
+            </ul>
+        </div>
+    </section>
+    <section class = "video_ilustrativo">
+      <h3 class = "titulo_video">CONHEÇA UM POUCO MAIS DA NOSSA PAPELARIA</h3>
+      <iframe class= "video_ilu" width="560" height="315" src="https://www.youtube.com/embed/Ee43XalbI8s?si=smCixlulpZskLkKB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+   </main>
+   <!--rodapé do site-->
+   <footer>
+    <img src="img/logo.png" alt="Glow Withnin"class="logo_footer"/>
+    <p>Encomendas on-line: <a href="https://wa.me/5511941276364"><i class="fa fa-whatsapp"></i></a>(11)-94127-6364 | <a href="https://instagram.com/biaacaselato"><i class="fa fa-instagram"></i></a>@biaacasellato</p>
+   </footer>
+</body>
+</html>
