@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Papel&magia</title>
+    <link href = "css/estilos.css" rel= "stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script> 
+        alert('Bem vindo ao nosso site!');
+         //criar um alerta//
+         dia = new Array ("Domingo", "Segunda-Feira","Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado" );
+         mes = new Array ("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+         data = new Date
+    </script>
+</head>
+<body>
+   <header>
+    <div class=".divHeader">
+        <!--LOGOTIPO-->
+        <img src="img/logo.png" title="Meu site" class="logo"/>
+        <!--MENU-->
+        <nav>
+            <ul>   
+                <!--ITENS DO MENU-->
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="produtos.html"><b>Produtos</b></a></li>
+                <li><b>Contato</b></li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+   <img src="img/rosa.png" class="Banner"/>
+
+
+ <!--<div class="container">
+    <div class="card">
+    <img src="img/caderno1.png" alt="produto 1">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div>
+    <div class="card">
+    <img src="img/caderno2.png" alt="produto 2">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div>
+    <div class="card">
+    <img src="img/caderno3.png" alt="produto 3">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div>
+    <div class="card">
+    <img src="img/caderno4.png" alt="produto 3">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div> -->
+<div class="container">
+    <div class="card">
+      <!-- Área do carrossel de imagens -->
+      <div class="slider">
+        <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+        <img src="img/caderno1.png" class="slide active"> <!-- imagem inicial visível -->
+        <img src="img/dentro1.png" class="slide">       <!-- imagens ocultas -->
+        <img src="img/dentro2.png" class="slide">
+        <img src="img/dentro3.png" class="slide">
+  
+        <!-- Botões de navegação -->
+        <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+        <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+      </div>
+
+  
+      <!-- Informações do produto -->
+      <h2>Caderno Capricho</h2>
+      <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+      <span class="preco">R$ 36,90</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/caderno2.png" class="slide active"> <!-- imagem inicial visível -->
+          <img src="img/dentro1.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/dentro2.png" class="slide">
+          <img src="img/dentro3.png" class="slide">
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Caderno Capricho</h2>
+        <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+        <span class="preco">R$ 36,90</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/caderno3.png" class="slide active"> <!-- imagem inicial visível -->
+          <img src="img/dentro1.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/dentro2.png" class="slide">
+          <img src="img/dentro3.png" class="slide">
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+        <!-- Informações do produto -->
+        <h2>Caderno Capricho</h2>
+        <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+        <span class="preco">R$ 36,90</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/caderno4.png" class="slide active"> <!-- imagem inicial visível -->
+          <img src="img/dentro1.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/dentro2.png" class="slide">
+          <img src="img/dentro3.png" class="slide">
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Caderno Capricho</h2>
+        <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+        <span class="preco">R$ 36,90</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/cadernoint1.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Conheça o Caderno Jasper, um caderno sofisticado e elegante na cor marrom com detalhes em tons contrastantes que remetem aos veios da pedra na qual foi inspirado. Possui aplicação de verniz localizado na capa que completa o efeito visual único e dá um charme todo especial ao seu novo BFF.
+
+           O modelo possui capa e contracapa rígidas, com impressão em alta qualidade e aplicação de verniz localizado na capa, discos metalizados na cor dourado com o centro transparente e elástico para fechamento na cor marrom com nosso característico C.
+           
+           Com o sistema de discos inteligentes, você tem toda a liberdade para reposicionar, adicionar e retirar as folhas e divisórias, além de conseguir misturar diferentes tipos de refis conforme a sua necessidade e vontade."> <!-- imagem inicial visível -->
+          <img src="img/cadernointDENTRO1.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/cadernointDENTRO2.png" class="slide">
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Caderno JASPER</h2>
+        <p>Caderno Jasper, o caderno com tons que remetem aos veios da pedra JASPER</p> 
+        <span class="preco">R$ 115,00</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto -->
+          <img src="img/cadernoint2.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc=
+           "A união do universo do Lifestyle da maquiagem com a praticidade da papelaria se concretiza no Caderno DREAM. Ideal para suas anotações, uso escolar ou universitário, este caderno é perfeito para transformar seus sonhos em realidade.
+
+          No CI by BRUNA TAVARES, desfrute do seu mais novo Caderno Inteligente® sem restrições. Por ser O CADERNO INTELIGENTE original, você pode adicionar e remover folhas sempre que desejar, proporcionando uma experiência versátil e personalizada. Acabamento premium em hotstamping nas cores mais amadas desta collab! Tem muito rose gold, azul marinho e rose para trazer toda a elegância nas suas anotações e projetos.
+           
+          O Caderno Inteligente® BT vem acompanhado por uma cartela de adesivos inspirados na jornada Bruna Tavares e um face chart EXCLUSIVO para documentar o passo a passo da sua maquiagem. 
+           
+          A vantagem de reposicionar a folha permite que você a guarde onde preferir.">
+          <img src="img/cadernointBTDENTRO.webp" class="slide" >
+          <img src="img/cadernointBTDENTRO2.webp" class="slide" >
+          <img src="img/cadernointBTDENTRO3.webp" class="slide" >
+          <img src="img/cadernointBTDENTRO4.webp" class="slide" >
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+    
+        <!-- Informações do produto -->
+        <h2>Caderno BT</h2>
+        <p>Caderno BT, uma parceria com Bruna Tavares explorando o mundo das makes</p>
+        <span class="preco">R$ 123,00</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto -->
+          <img src="img/cadernoint3.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc=
+           "O CADERNO Pink Blossom by @sof.martinss é perfeito para inspirar leveza e criatividade no dia a dia e se tornar o seu novo BFF inseparável.
+
+           Com capa temática floral em tons rosa delicados e discos dourados com interior transparente, acompanha uma cartela de adesivos super fofos para deixar o seu novo queridinho ainda mais bonito.
+           
+           O sistema reposicionável original CADERNO INTELIGENTE permite total personalização, possibilitando adicionar, remover ou reorganizar páginas conforme a sua necessidade.
+           
+           São dois tamanhos disponíveis contendo:
+           
+           Caderno Pink Blossom Grande:
+           
+            Capa e contracapa rígidas
+           11 discos M + elástico
+           01 bolsa plástica
+           01 folha de adesivos
+            01 folha de instrução de uso e manuseio, com refis e acessórios da marca disponíveis no verso
+           01 folha de identificação com calendário no verso
+           04 divisórias com abas para identificação nas laterais em polipropileno (04 transparentes)
+           80 folhas offset 90g (60 folhas pautadas e 20 folhas lisas brancas)
+           01 suporte com elástico para 01 caneta ou 01 lápis
+           Caderno Pink Blossom A5:
+           
+           Capa e contracapa rígidas
+           08 discos M + elástico
+           01 bolsa plástica
+           01 folha de adesivos
+           01 folha de instrução de uso e manuseio, com refis e acessórios da marca disponíveis no verso
+           01 folha de identificação com calendário no verso
+           04 divisórias com abas para identificação na parte superior e inferior em polipropileno
+           80 folhas offset 90g (60 folhas pautadas e 20 folhas lisas brancas)
+           01 suporte com elástico para 01 caneta ou 01 lápis
+           Gostou do Caderno Pink Blossom by @sof.martinss? Aproveite para conhecer toda a coleção e deixar seu dia a dia mais organizado e bonito.">
+          <img src="img/cadernoint3DENTRO1.webp" class="slide" >
+          <img src="img/cadernoint3DENTRO2.webp" class="slide">
+
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+    
+        <!-- Informações do produto -->
+        <h2>Caderno Pink Blossom by Sof Martins</h2>
+        <p>Caderno Pink Blossom, te inspira leveza e criatividade dutrante seus estudos</p>
+        <span class="preco">R$ 128,00</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/cadernoint5.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Com uma cor intensa e marcante, o Caderno Intense Green é a escolha perfeita pra deixar florescer o seu lado mais criativo a cada página usada. É o match ideal para quem gosta de praticidade e organização, sem abrir mão do estilo e personalidade.
+
+           Com sistema de discos inteligentes, você tem toda a liberdade para reposicionar, adicionar ou tirar as folhas conforme a sua necessidade e vontade.
+           
+           O modelo possui capa rígida com acabamento em percalux, que imita couro sintético, discos metalizados com o centro transparente e elástico para fechamento no mesmo tom da capa."> <!-- imagem inicial visível -->
+          <img src="img/cadernoint5DENTRO1.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/cadernoint5DENTRO2.webp" class="slide">
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Caderno Intense Green</h2>
+        <p>Caderno Instese Green, o caderno que floresce o seu lado criativo</p> 
+        <span class="preco">R$ 70,00</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/cadernoSP.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Especificações
+
+           Formato: 200mm x 275mm
+           Número de folhas: 80 folhas
+           Número de matérias: 1 matéria
+           Capa e contracapa: Dura com papelão 820g/m², com verniz e hotstamping
+           Revestimento em papel couché 120g/m² com parte interna da capa personalizada em papel offset 120g/m²
+           Adesivo personalizado em papel 190g/m²
+           Bolsa plástica
+           Divisória em papel offset 90g/m²
+           Miolo pautado padrão em papel offset 56g/m²
+           Produto certificado: FSC©"> <!-- imagem inicial visível -->
+          <img src="img/cadernoSPdentro1.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/cadernoSPdentro2.png" class="slide"> 
+          <img src="img/cadernoSPdentro3.png" class="slide"> 
+          <img src="img/cadernoSPatras.png" class="slide"> 
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Caderno São Paulo</h2>
+        <p>Caderno Time São Paulo</p> 
+        <span class="preco">R$ 30,00</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/cadernoPA.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Composição:
+
+           - Laminação Fosca
+           
+           - Verniz Localizado
+           
+           - Envelope Personalizado
+           
+           - Miolo Padrão
+           
+           - Possui Poster
+           
+           Caderno 1 matérias 80 folhas 200mmx275mm"> <!-- imagem inicial visível -->
+          <img src="img/cadernoPAdentro1.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/cadernoPAdentro2.png" class="slide"> 
+          <img src="img/cadernoPAdentro3.png" class="slide"> 
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Caderno Palmeiras</h2>
+        <p>Caderno Time Palmeiras</p> 
+        <span class="preco">R$ 30,00</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapis.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Lápis Grafite EcoLápis Castell 9000 HB/2B/4B/6B Sextavado Faber-Castell BT 4 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapis2.png" class="slide">       <!-- imagens ocultas -->
+
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Lápis Grafite Faber Castell</h2>
+        <p>Lápis 4 UN-HB/2B/4B/6B</p> 
+        <span class="preco">R$ 6,00</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapiss.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Lápis Grafite Redondo EcoLápis n.2 B Max Preto Faber-Castell BT 4 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapiss2.png" class="slide">       <!-- imagens ocultas -->
+
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Lápis Grafite Faber Castell</h2>
+        <p>Lápis 4 UN-n.2</p> 
+        <span class="preco">R$ 6,50</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapisb.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Kit Lápis Grafite 2 EcoLápis n.2 B Eco Grip 2001 Preto + Apontador + Borracha Faber-Castell BT 4 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapisb2.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/lapisb3.png" class="slide">
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Kit Lápis Grafite Faber Castell</h2>
+        <p>Lápis + Apontador + Borracha</p> 
+        <span class="preco">R$ 17,50</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapisr.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Kit Grip 2001, Lápis preto N.2 + Apontador + Borracha, Neon Rosa, Faber-Castell - BT 4 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapisr2.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/lapisr3.png" class="slide">
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Kit Lápis Preto</h2>
+        <p>Lápis Neon Rosa + Apontador + Borracha</p> 
+        <span class="preco">R$ 16,70</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapisP.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Lápis Preto BIC Evolution, Grafite Nº2HB, com Corpo Preto Hexagonal, Seguro Para Crianças, 904328 - BT 4 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapisP2.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/lapisP3.png" class="slide">
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Lápis Preto BIC</h2>
+        <p>Lápis com corpo Hexagonal</p> 
+        <span class="preco">R$ 7,30</span>
+    </div>
+    <div class="card">
+    <div class="slider">
+        <!-- Imagem principal -->
+        <img src="img/lapiseiraR.png" class="slide active" onclick="abrirPopup(this)" 
+        data-desc="Lapiseira Bubble Pastel Rosa 0.7mm + 1 Tubo de Grafite Faber-Castell - BT 1 UN" id="img-lapiseira">
+        <img src="img/lapiseiraF.png" class="slide active" onclick="abrirPopup(this)" 
+        data-desc="Lapiseira Bubble Pastel Verde-Água 0.7mm + 1 Tubo de Grafite Faber-Castell - BT 1 UN id="img-lapiseira">
+        <!-- Botões de navegação -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <!-- Bolinhas de seleção de cor -->
+    <div class="color-selector">
+        <span class="color-option" onclick="mudarCor('rosa')"></span>
+        <span class="color-option" onclick="mudarCor('azul')"></span>
+    </div>
+
+    <!-- Informações do produto -->
+    <h2 id="titulo-produto">Lapiseira Rosa</h2>
+    <p id="desc-produto">Lapiseira com corpo rosa, ponta fina.</p>
+    <span class="preco">R$ 20,30</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapiseiraA.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Lapiseira técnica Azul, 0.7mm + 1 tubo com 12 minas grafite, Oval - BT 1 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapiseiraA2.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/lapiseiraA3.png" class="slide">
+          <img src="img/lapiseiraA4.png" class="slide">
+          
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Lapiseira Azul</h2>
+        <p>Lapiseira Azul Oval 0.7mm</p> 
+        <span class="preco">R$ 11,90</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapiseiraD.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Lapiseira técnica Dourada, 0.7mm + 1 tubo com 12 minas grafite, Oval - BT 1 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapiseiraD2.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/lapiseiraD3.png" class="slide">
+          <img src="img/lapiseiraD4.png" class="slide">
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Lapiseira Dourada</h2>
+        <p>Lapiseira Dourada Oval 0.7mm</p> 
+        <span class="preco">R$ 11,90</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+          <!-- Imagens do produto (apenas uma ficará visível por vez) -->
+          <img src="img/lapiseiraB.png" class="slide active" onclick="abrirPopup(this)"
+           data-desc="Lapiseira técnica Branca, 0.7mm + 1 tubo com 12 minas grafite, Oval - BT 1 UN"> <!-- imagem inicial visível -->
+          <img src="img/lapiseiraB2.png" class="slide">       <!-- imagens ocultas -->
+          <img src="img/lapiseiraB3.png" class="slide">
+          <img src="img/lapiseiraB4.png" class="slide">
+    
+          <!-- Botões de navegação -->
+          <button class="prev">&#10094;</button> <!-- seta esquerda (voltar) -->
+          <button class="next">&#10095;</button> <!-- seta direita (avançar) -->
+        </div>
+        
+    
+        <!-- Informações do produto -->
+        <h2>Lapiseira Branca</h2>
+        <p>Lapiseira Branca Oval 0.7mm</p> 
+        <span class="preco">R$ 11,90</span>
+    </div>
+    <div class="card">
+        <!-- Área do carrossel de imagens -->
+        <div class="slider">
+            <img src="img/lapiseiraQ.png" class="slide active" onclick="abrirPopup(this)"
+            data-desc="Lapiseira técnica Branca, 0.7mm + 1 tubo com 12 minas grafite, Oval - BT 1 UN" id="img-lapiseira2">
+    
+            <!-- Botões de navegação -->
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+    
+        <!-- Bolinhas de seleção de cor -->
+        <div class="color-selectorr">
+            <span class="color-option2" onclick="mudarCor('rosaa')"></span>
+            <span class="color-option2" onclick="mudarCor('azull')"></span>
+            <span class="color-option2" onclick="mudarCor('verdee')"></span>
+        </div>
+    
+        <!-- Informações do produto -->
+        <h2 id="titulo-produto2">Lapiseira Branca</h2>
+        <p id="desc-produto2">Lapiseira técnica branca, 0.7mm + 1 tubo com 12 minas.</p>
+        <span class="preco" id="preco2">R$ 9,90</span>
+    </div>
+      <!-- O Pop-up -->
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="popup-close" onclick="fecharPopup()">&times;</span>
+          <img id="popup-img" class="popup-img" src="" alt="Imagem Expandida">
+          <p id="popup-desc" class="popup-desc"></p>
+        </div>
+    </div>
+    
+</div>
+    
+    </div>
+    <script>
+    // Para cada slider na página (caso tenha vários produtos)
+    document.querySelectorAll('.slider').forEach(slider => {
+      const slides = slider.querySelectorAll('.slide'); // pega todas as imagens
+      let index = 0; // índice da imagem atual
+    
+      // Função que exibe a imagem com índice "i" e esconde as outras
+      const showSlide = (i) => {
+        slides.forEach((slide, j) => {
+          slide.classList.toggle('active', j === i); // ativa só a imagem atual
+        });
+      };
+    
+      // Quando clicar no botão "next" (seta para direita)
+      slider.querySelector('.next').addEventListener('click', () => {
+        index = (index + 1) % slides.length; // avança circularmente
+        showSlide(index); // mostra a nova imagem
+      });
+    
+      // Quando clicar no botão "prev" (seta para esquerda)
+      slider.querySelector('.prev').addEventListener('click', () => {
+        index = (index - 1 + slides.length) % slides.length; // volta circularmente
+        showSlide(index); // mostra a nova imagem
+      });
+    });
+    </script>
+  <script>
+    // Função para abrir o pop-up com a imagem e descrição
+    function abrirPopup(img) {
+      const popup = document.getElementById('popup');
+      const popupImg = document.getElementById('popup-img');
+      const popupDesc = document.getElementById('popup-desc');
+      
+      // Configura a imagem do pop-up
+      popupImg.src = img.src;
+      
+      // Pega a descrição da imagem, definida no atributo data-desc
+      const descricao = img.getAttribute('data-desc');
+      popupDesc.textContent = descricao;
+      
+      // Exibe o pop-up
+      popup.style.display = 'block';
+    }
+
+    // Função para fechar o pop-up
+    function fecharPopup() {
+      const popup = document.getElementById('popup');
+      popup.style.display = 'none';
+    }
+  </script>
+<script>
+    function mudarCor(cor) {
+        const img = document.getElementById('img-lapiseira');
+        const titulo = document.getElementById('titulo-produto');
+        const descricao = document.getElementById('desc-produto');
+        const preco = document.querySelector('.preco');
+
+        if (cor === 'rosa') {
+            img.src = 'img/lapiseiraR.png';
+            titulo.textContent = 'Lapiseira Rosa';
+            descricao.textContent = 'Lapiseira com corpo rosa, ponta fina.';
+            preco.textContent = 'R$ 7,30';
+        } else if (cor === 'azul') {
+            img.src = 'img/lapiseiraF.png'; // Coloque a imagem azul aqui
+            titulo.textContent = 'Lapiseira Azul';
+            descricao.textContent = 'Lapiseira com corpo azul, ponta fina.';
+            preco.textContent = 'R$ 7,30'; // Ajuste o preço, se necessário
+        }
+    }
+</script>
+<script>
+    function mudarCor(cor) {
+        const img = document.getElementById('img-lapiseira2');
+        const titulo = document.getElementById('titulo-produto2');
+        const descricao = document.getElementById('desc-produto2');
+        const preco = document.getElementById('preco2');
+
+        if (cor === 'rosaa') {
+            img.src = 'img/lapiseiraQ3.png'; // substitua com o caminho correto da imagem rosa
+            titulo.textContent = 'Lapiseira Rosa';
+            descricao.textContent = 'Lapiseira técnica rosa, 0.7mm + tubo com 12 minas.';
+            preco.textContent = 'R$ 9,90';
+        } else if (cor === 'azull') {
+            img.src = 'img/lapiseiraQ.png'; // substitua com o caminho correto da imagem azul
+            titulo.textContent = 'Lapiseira Azul';
+            descricao.textContent = 'Lapiseira técnica azul, 0.7mm + tubo com 12 minas.';
+            preco.textContent = 'R$ 9,90';
+        } else if (cor === 'verdee') {
+            img.src = 'img/lapiseiraQ4.png'; // substitua com o caminho correto da imagem verde
+            titulo.textContent = 'Lapiseira Verde';
+            descricao.textContent = 'Lapiseira técnica verde, 0.7mm + tubo com 12 minas.';
+            preco.textContent = 'R$ 9,90';
+        }
+    }
+</script>
